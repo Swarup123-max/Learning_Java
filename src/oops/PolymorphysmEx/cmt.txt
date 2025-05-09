@@ -1,0 +1,46 @@
+### 🌀 Polymorphism in Java - Key Notes  
+
+---
+
+✅ Definition  
+- Polymorphism allows objects to take **multiple forms**.  
+- A single action can behave differently based on the object that performs it.  
+
+---
+
+🎯 Key Concepts  
+- **Compile-Time (Static) Polymorphism:**  
+   - Achieved using **method overloading**.  
+   - Decided at compile-time.  
+- **Run-Time (Dynamic) Polymorphism:**  
+   - Achieved using **method overriding**.  
+   - Decided at runtime.  
+
+---
+
+⚡️ Types of Polymorphism  
+1. **Method Overloading:**  
+   - Multiple methods with the same name but different parameters.  
+   - Resolved during compile-time.  
+2. **Method Overriding:**  
+   - A subclass provides a specific implementation of a parent class method.  
+   - Resolved during runtime.  
+
+---
+
+📝 Key Characteristics  
+- **Flexibility:** Allows a method to perform different tasks based on input.  
+- **Reusability:** Enhances code maintainability.  
+- **Extensibility:** Easy to add new functionality.  
+
+---
+
+🎁 Advantages of Polymorphism  
+- **Code Reusability:** Reduces duplication.  
+- **Scalability:** Easier to extend the application.  
+- **Improved Maintainability:** Clean and flexible code structure.  
+
+---
+
+✅ Summary  
+- Polymorphism enhances flexibility, efficiency, and scalability in Java programs.

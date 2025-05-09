@@ -1,0 +1,12 @@
+------------------------------------------
+1. Generic Naming Conventions
+------------------------------------------
+
+| Symbol | Meaning                        | Common Use                   |
+|--------|--------------------------------|------------------------------|
+| T      | Type                           | General data type            |
+| E      | Element                        | Used in collections          |
+| K      | Key                            | Used in maps                 |
+| V      | Value                          | Used in maps                 |
+| N      | Number                         | Numeric types                |
+| S, U, R| Second, third types            | For multiple generics        |

@@ -1,0 +1,33 @@
+Definition:
+The static keyword in Java signifies that a member belongs to the class rather than any object of the class.
+
+
+Static Variables:
+Shared across all instances of the class, they retain their values throughout the program.
+
+
+Static Methods:
+Can be called without creating an object and are used to perform tasks that do not require access to instance variables.
+
+Static Block:
+Executes once when the class is loaded, typically used for initializing static variables.
+
+Memory Efficiency:
+Static members are stored in the method area, reducing memory usage.
+
+Accessing Static Members:
+Accessed using the class name directly, though objects can also access them (not recommended).
+
+No this or super:
+Static methods and blocks cannot use this or super because they do not operate on instances.
+
+Static Nested Class:
+A class inside another class that can access only static members of the outer class.
+
+Main Method:
+Defined as static so the JVM can invoke it without creating an object.
+
+Limitations:
+Static methods cannot be overridden but can be hidden if redefined in a subclass
+
+this and super can't be used in static context

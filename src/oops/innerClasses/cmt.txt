@@ -1,0 +1,52 @@
+types of inner class-->
+member inner class
+static nested class
+local inner class
+anonymous inner class
+
+Java Inner Classes - Short Notes
+--------------------------------
+
+1. **Definition**:
+   Inner classes are classes defined within another class.
+
+2. **Types of Inner Classes**:
+   a) **Non-static Inner Class** (also called Member Inner Class)
+   b) **Static Nested Class**
+   c) **Local Inner Class** (defined inside a method)
+   d) **Anonymous Inner Class** (without a name, used for instant implementation)
+
+3. **Non-static Inner Class**:
+   - Has access to all members of the outer class (including private).
+   - Must be instantiated using the outer class instance.
+   - Syntax: `OuterClass.InnerClass obj = outerObj.new InnerClass();`
+
+4. **Static Nested Class**:
+   - Can access only static members of the outer class.
+   - Can be instantiated without an object of the outer class.
+   - Syntax: `OuterClass.StaticNestedClass obj = new OuterClass.StaticNestedClass();`
+
+5. **Local Inner Class**:
+   - Defined within a method.
+   - Can access final or effectively final variables of the method.
+
+6. **Anonymous Inner Class**:
+   - Used for implementing interfaces or abstract classes quickly.
+   - No class name; declared and instantiated at the same time.
+
+7. **Use Cases**:
+   - Better encapsulation.
+   - Logical grouping of classes.
+   - Simplifying code in GUI and event handling.
+
+Example:
+```java
+class Outer {
+    private int data = 30;
+
+    class Inner {
+        void show() {
+            System.out.println("Data is " + data);
+        }
+    }
+}

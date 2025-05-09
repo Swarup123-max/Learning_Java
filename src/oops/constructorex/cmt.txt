@@ -1,0 +1,44 @@
+### 🏗️ Constructors in Java - Key Notes  
+
+---
+
+✅ Definition  
+- A constructor is a **special method** used to initialize objects.  
+- It is invoked automatically when an object is created.  
+
+---
+
+🎯 Key Concepts  
+- **Same Name as Class:** A constructor has the same name as the class.  
+- **No Return Type:** Constructors do not have a return type.  
+- **Automatic Invocation:** Called automatically when an object is instantiated.  
+
+---
+
+⚡️ Types of Constructors  
+1. **Default Constructor:**  
+   - No parameters.  
+   - Initializes objects with default values.  
+2. **Parameterized Constructor:**  
+   - Accepts parameters to initialize objects with specific values.  
+3. **Copy Constructor:**  
+   - Creates a new object by copying values from another object.  
+
+---
+
+📝 Key Characteristics  
+- **Constructor Overloading:** Multiple constructors with different parameters.  
+- **Cannot Be Inherited:** Constructors are not inherited by subclasses.  
+- **Calls Parent Constructor:** `super()` can be used to call a parent class constructor.  
+
+---
+
+🎁 Advantages of Constructors  
+- **Object Initialization:** Ensures proper initialization of objects.  
+- **Code Reusability:** Avoids repetitive initialization code.  
+- **Improved Readability:** Simplifies object creation.  
+
+---
+
+✅ Summary  
+- Constructors ensure efficient object initialization and promote cleaner, more maintainable code.

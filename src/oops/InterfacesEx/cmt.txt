@@ -1,0 +1,57 @@
+Definition:
+An interface in Java is a blueprint of a class that contains abstract methods (methods without a body) and constants. It is used to achieve abstraction and multiple inheritance.
+
+Declaration:
+An interface is declared using the interface keyword.
+
+Example: interface MyInterface { }
+
+Methods in Interface:
+
+By default, all methods in an interface are public and abstract.
+
+Since Java 8, interfaces can also have default and static methods with implementation.
+
+Variables in Interface:
+
+All variables in an interface are public, static, and final by default.
+
+Values cannot be changed after initialization.
+
+Implementation:
+
+A class implements an interface using the implements keyword.
+
+The implementing class must provide definitions for all abstract methods.
+
+Multiple Inheritance Support:
+
+Java allows a class to implement multiple interfaces, providing a way to achieve multiple inheritance.
+
+No Constructor:
+
+Interfaces cannot have constructors, as they cannot be instantiated directly.
+
+Default and Static Methods (Java 8+):
+
+Default Methods: Have a body and can be overridden by implementing classes.
+
+Static Methods: Can be called without creating an instance of the implementing class.
+
+Marker Interface:
+
+An interface with no methods or fields, used to indicate a class's special behavior (e.g., Serializable or Cloneable).
+
+Functional Interface (Java 8+):
+
+An interface with a single abstract method, used for lambda expressions and functional programming.
+
+Annotated with @FunctionalInterface.
+<-------------------------------------------------------------------------------------------------------------------->
+class -->bluprint of obj
+interface-->blueprint of class-->abstractmethods
+                               |->static constants
+                               |->static methods
+                               |->Defaullt methods
+
+used for multiple inheritance and abstraction                              

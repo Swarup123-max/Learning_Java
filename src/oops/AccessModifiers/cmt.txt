@@ -1,0 +1,7 @@
+Access modifiers are the keywordes which determine the visibility of any class,method,members
+public (Anywhere)
+private(inside class) mainly done to prevent constructors using outside the class you can use static keyword directly to use the class
+we mainly use it in constructor so that no object can be formed
+protected --Sub class can also acess it 
+default -Can not use outside the package i.e cannot make obj outside the package
+

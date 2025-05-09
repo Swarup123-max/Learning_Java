@@ -1,0 +1,173 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "ex",
+            "request": "launch",
+            "mainClass": "Exception_Handling.ex",
+            "projectName": "learningJava_2b4937cb"
+        },
+        {
+            "type": "java",
+            "name": "test1",
+            "request": "launch",
+            "mainClass": "innerClasses.test1",
+            "projectName": "learningJava_2b4937cb"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "innerClasses.test",
+            "projectName": "learningJava_2b4937cb"
+        },
+        {
+            "type": "java",
+            "name": "car",
+            "request": "launch",
+            "mainClass": "innerClasses.car",
+            "projectName": "learningJava_2b4937cb"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "q1",
+            "request": "launch",
+            "mainClass": "PolymorphysmEx.q1",
+            "projectName": "learningJava_2b4937cb"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "InterfacesEx.test",
+            "projectName": "learningJava_2b4937cb"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "InterfacesEx.test",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "finalKeyWord.test",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "StaticKeyWord.test",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "AccessModifiers.access1.test",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "example",
+            "request": "launch",
+            "mainClass": "AccessModifiers.example",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "clean",
+            "request": "launch",
+            "mainClass": "clean",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "PolymorphismExample",
+            "request": "launch",
+            "mainClass": "PolymorphismExample",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "HeartSymbol",
+            "request": "launch",
+            "mainClass": "HeartSymbol",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "programm",
+            "request": "launch",
+            "mainClass": "programm",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "dog",
+            "request": "launch",
+            "mainClass": "src.oops.Inheritance.dog",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "src.oops.constructor.test",
+            "projectName": "learningJava_7ec2eb59"
+        },
+        {
+            "type": "java",
+            "name": "bankAccount",
+            "request": "launch",
+            "mainClass": "src.oops.encapsulation.bankAccount",
+            "projectName": "learningJava_7ec2eb59"
+        }
+        {
+            "version": "0.2.0",
+            "configurations": [
+              {
+                "type": "java",
+                "name": "Debug ex",
+                "request": "launch",
+                "mainClass": "Exception_Handling.ex"
+              }
+            ]
+          }
+          
+    ]
+}

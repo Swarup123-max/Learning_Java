@@ -1,0 +1,79 @@
+Types of errors -->
+Syntax errors
+logical errors
+runtime errors
+
+**Java Error Handling Notes**
+
+1. **try-catch Block**
+
+   - The `try` block contains code that might throw an exception.
+   - The `catch` block handles specific types of exceptions.
+   - Multiple `catch` blocks can be used to handle different exceptions.
+
+   Example:
+
+   try {
+       // Code that may throw an exception
+   } catch (ExceptionType e) {
+       // Code to handle the exception
+   }
+
+2. **finally Block**
+
+   - The `finally` block is always executed after the `try` and `catch` blocks, regardless of whether an exception was thrown or caught.
+   - It is typically used for cleanup activities, such as closing files or releasing resources.
+
+   Example:
+
+   try {
+       // Code that may throw an exception
+   } catch (Exception e) {
+       // Code to handle the exception
+   } finally {
+       // Cleanup code that will always execute
+   }
+
+3. **throw Keyword**
+
+   - The `throw` keyword is used to explicitly throw an exception.
+   - It can be used to throw both built-in and custom exceptions.
+
+   Example:
+
+   throw new IllegalArgumentException("Invalid input");
+
+4. **throws Keyword**
+
+   - The `throws` keyword is used in a method signature to declare that a method may throw one or more exceptions.
+   - It informs the caller of the method to handle these exceptions.
+
+   Example:
+
+   public void readFile() throws IOException {
+       // Code that may throw an IOException
+   }
+
+5. **Custom Exception Class**
+
+   - You can define your own exception classes by extending the `Exception` class or one of its subclasses.
+   - This allows you to create exceptions that are specific to your application's needs.
+
+   Example:
+
+   class InvalidAgeException extends Exception {
+       public InvalidAgeException(String message) {
+           super(message);
+       }
+   }
+
+6. **What is `Exception e`**
+
+   - In a `catch` block, `Exception` is a type that can catch any exception that is a subclass of the `Exception` class.
+   - The variable `e` is a reference to the caught exception object, which can be used to retrieve information about the exception.
+
+   Example:
+
+   catch (Exception e) {
+       System.out.println("An error occurred: " + e.getMessage());
+   }

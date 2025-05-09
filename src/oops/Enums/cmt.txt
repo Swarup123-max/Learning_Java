@@ -1,0 +1,41 @@
+===========================
+     JAVA ENUM – NOTES
+===========================
+
+✅ What is Enum?
+- A special Java type to define a fixed set of constants.
+- Example: Days, Status, Directions.
+
+📦 Syntax:
+public enum Day {
+    MONDAY, TUESDAY, WEDNESDAY
+}
+
+🧠 Key Features:
+- Enum constants are public, static, and final.
+- Cannot extend other classes but can implement interfaces.
+- Can have fields, constructors, and methods.
+
+🔧 Example with Fields:
+public enum Status {
+    NEW(1), DONE(2);
+    private int code;
+    Status(int code) { this.code = code; }
+    public int getCode() { return code; }
+}
+
+📚 Common Methods:
+- `name()` – returns name as String.
+- `ordinal()` – returns index (starts from 0).
+- `values()` – returns array of all constants.
+- `valueOf("NAME")` – returns constant by name.
+
+🔁 Loop Example:
+for (Day d : Day.values()) {
+    System.out.println(d);
+}
+
+📌 Best Practice:
+- Use UPPERCASE for enum constants.
+
+===========================

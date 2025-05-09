@@ -1,0 +1,39 @@
+✅ Definition
+
+Encapsulation is the process of wrapping data (variables) and methods into a single unit (class).
+
+It restricts direct access to the data and promotes data security.
+
+🎯 Key Concepts
+
+Private Variables: Data is declared private to prevent direct access.
+
+Public Methods: Getters and setters are used to access and modify private variables.
+
+Class as a Capsule: Acts as a protective layer around the data.
+
+⚡️ Purpose of Encapsulation
+
+Protects data from unauthorized access.
+
+Increases control over data.
+
+Makes the code more maintainable and flexible.
+
+📝 Access Control in Encapsulation
+
+Private: Restricts access to class members.
+
+Public Methods: Allow controlled access to private data.
+
+🎁 Advantages of Encapsulation
+
+Data Hiding: Protects internal data.
+
+Flexibility: Modifications can be done without affecting other classes.
+
+Improved Security: Only authorized access to data.
+
+✅ Summary
+
+Encapsulation ensures data safety and promotes clean and maintainable code.

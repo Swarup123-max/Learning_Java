@@ -1,0 +1,83 @@
+✅ Definition
+Inheritance allows one class (child/subclass) to acquire properties and behavior (methods) from another class (parent/superclass).
+
+It promotes code reusability and reduces redundancy.
+
+🎯 Key Concepts
+Superclass/Parent Class: The class being inherited.
+
+Subclass/Child Class: The class that inherits from the parent.
+
+extends Keyword: Used to define inheritance.
+
+📝 Types of Inheritance
+Single Inheritance:
+
+One child class inherits from one parent class.
+
+Multilevel Inheritance:
+
+A class inherits from a derived class.
+
+Hierarchical Inheritance:
+
+Multiple classes inherit from a single parent.
+
+⚠️ Note:
+
+Java does not support multiple inheritance with classes to avoid ambiguity.
+
+Multiple inheritance is achieved using interfaces.
+
+🔥 Important Keywords
+super Keyword:
+
+Refers to the parent class and is used to access parent class methods or constructors.
+
+this Keyword:
+
+Refers to the current class instance.
+
+final Keyword:
+
+Prevents a class from being inherited or a method from being overridden.
+
+⚡️ Method Overriding
+Occurs when a subclass redefines a method from the parent class.
+
+Ensures that the subclass method is invoked instead of the parent’s method.
+
+Used for runtime polymorphism.
+
+🔒 Access Modifiers in Inheritance
+Public: Accessible everywhere.
+
+Protected: Accessible within the package and subclasses.
+
+Default: Accessible within the same package.
+
+Private: Not accessible by child classes.
+
+🧩 Constructor Behavior in Inheritance
+A subclass constructor automatically calls the parent class constructor.
+
+If the parent has a parameterized constructor, it must be explicitly called using super().
+
+⚡️ Abstract Class and Inheritance
+Abstract classes can be inherited but cannot be instantiated.
+
+Subclasses must implement abstract methods.
+
+🚫 Multiple Inheritance Limitation
+Java prevents multiple inheritance using classes to avoid ambiguity.
+
+It is supported through interfaces.
+
+🎁 Advantages of Inheritance
+Promotes code reusability.
+
+Enhances maintainability and scalability.
+
+Supports method overriding for dynamic method dispatch.
+
+Let me kn

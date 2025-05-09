@@ -1,0 +1,46 @@
+### 🎭 Abstraction in Java - Key Notes  
+
+---
+
+✅ Definition  
+- Abstraction is the process of hiding **implementation details** and showing only the **essential features**.  
+- It focuses on **what** an object does rather than **how** it does it.  
+
+---
+
+🎯 Key Concepts  
+- **Abstract Class:**  
+   - A class declared with the `abstract` keyword.  
+   - Can have both abstract (without body) and concrete (with body) methods.  
+- **Interface:**  
+   - Contains only abstract methods (until Java 8).  
+   - A class implements an interface to provide behavior.  
+
+---
+
+⚡️ Ways to Achieve Abstraction  
+1. **Abstract Class:**  
+   - Can have abstract and non-abstract methods.  
+   - Provides partial abstraction.  
+2. **Interface:**  
+   - Contains only abstract methods by default.  
+   - Provides 100% abstraction.  
+
+---
+
+📝 Key Characteristics  
+- **Data Hiding:** Protects internal details.  
+- **Security:** Prevents exposure of implementation.  
+- **Flexibility:** Easy to make changes in the implementation.  
+
+---
+
+🎁 Advantages of Abstraction  
+- **Increased Security:** Hides unnecessary details from the user.  
+- **Reduced Complexity:** Simplifies the system design.  
+- **Improved Maintainability:** Easier to manage and modify the code.  
+
+---
+
+✅ Summary  
+- Abstraction enhances security, simplifies complexity, and improves maintainability in Java programs.
