@@ -10,3 +10,7 @@
 | V      | Value                          | Used in maps                 |
 | N      | Number                         | Numeric types                |
 | S, U, R| Second, third types            | For multiple generics        |
+Type safety
+class
+interface
+Bound [T extends Number]

@@ -1,0 +1,14 @@
+package Generics;
+enum Day{
+    SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THRUSDAY,FRIDAY,SATURDAY
+
+
+}
+class Test2{
+public Static void msin(String args [])
+{
+Day d = Day.MONDAY;
+
+
+
+}}
