@@ -14,3 +14,96 @@ Type safety
 class
 interface
 Bound [T extends Number]
+
+Generics in Java – Complete Notes
+
+1. Introduction to Generics
+
+- Generics enable types (classes and interfaces) to be parameters when defining classes, interfaces, and methods.
+- Purpose:
+  - Type safety
+  - Code reusability
+  - Compile-time type checking
+
+2. Generic Classes
+
+- Syntax:
+  class Box<T> {
+      private T value;
+      public void set(T value) { this.value = value; }
+      public T get() { return value; }
+  }
+
+- Usage:
+  Box<Integer> intBox = new Box<>();
+  intBox.set(123);
+
+3. Generic Methods
+
+- Syntax:
+  public <T> void printArray(T[] array) {
+      for (T element : array) {
+          System.out.println(element);
+      }
+  }
+
+4. Bounded Type Parameters
+
+- Restrict types using extends keyword:
+  class Stats<T extends Number> {
+      T[] nums;
+      Stats(T[] nums) { this.nums = nums; }
+      double average() {
+          double sum = 0.0;
+          for (T num : nums) sum += num.doubleValue();
+          return sum / nums.length;
+      }
+  }
+
+5. Wildcards
+
+- `?` is the wildcard, represents unknown type
+- Types of wildcards:
+  - Unbounded: List<?>
+  - Upper bounded: List<? extends Number>
+  - Lower bounded: List<? super Integer>
+
+6. Type Inference (Java 7+)
+
+- Diamond operator `<>`:
+  List<String> list = new ArrayList<>();
+
+7. Generic Interfaces
+
+- Syntax:
+  interface MyInterface<T> {
+      void performAction(T item);
+  }
+
+- Implementation:
+  class StringAction implements MyInterface<String> {
+      public void performAction(String item) {
+          System.out.println(item);
+      }
+  }
+
+8. Type Erasure
+
+- Generics are implemented through type erasure — type information is removed at runtime.
+- Implications:
+  - No runtime type information about generic types
+  - Can't use instanceof with generic types
+  - Can't create arrays of generic types
+
+9. Restrictions with Generics
+
+- Cannot instantiate generic types with primitives:
+  // Invalid: Box<int>
+- Cannot create static fields of type parameters
+- Cannot create arrays of parameterized types:
+  // Invalid: new T[10], new List<String>[5]
+
+10. Use Cases
+
+- Collections Framework uses generics extensively (List<T>, Map<K, V>, etc.)
+- Custom generic data structures and utility methods

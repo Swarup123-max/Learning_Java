@@ -43,20 +43,20 @@ class test {
 
 //<--------------------------------------------------------------------------------------------------------------------------->
 
-// class Creditcard implements Payment {
-//     private String number ;
-//     @Override
-//     public void pay(double amt) {
-//         System.out.println("Paid " + amt + " using credit card");  // Implements the pay method.
-//     }
-// }
+class Creditcard implements Payment {
+    private String number ;
+    @Override
+    public void pay(double amt) {
+        System.out.println("Paid " + amt + " using credit card");  // Implements the pay method.
+    }
+}
 
 //<--------------------------------------------------------------------------------------------------------------------------->
 
-// class test {
-//     public static void main(String[] args) {  // The main method to run the program.
-//         ShoppingCart sc = new ShoppingCart(150);  // Create a shopping cart with a total amount of 150.
-//         Creditcard cc = new Creditcard();  // Create a Creditcard payment method.
-//         sc.processPayment(cc);  // Process payment using the credit card.
-//     }
-// }
+class test1 {
+    public static void main(String[] args) {  // The main method to run the program.
+        ShoppingCart sc = new ShoppingCart(150);  // Create a shopping cart with a total amount of 150.
+        Creditcard cc = new Creditcard();  // Create a Creditcard payment method.
+        sc.processPayment(cc);  // Process payment using the credit card.
+    }
+}

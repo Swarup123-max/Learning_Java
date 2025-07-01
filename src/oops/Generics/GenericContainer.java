@@ -1,24 +1,25 @@
 package Generics;
 
- interface container<T> {
+interface container<T> {
 
- void add(T item);
-T get();
-    
+  void add(T item);
+
+  T get();
+
 }
-public class GenericContainer <T> implements container<T>{
-    
-    private T item;
 
-    @Override
-    public void add(T item) {
-        this.item=item;
-    }
+public class GenericContainer<T> implements container<T> {
 
-    @Override
-    public T get() {
-  return item;
-    }
-   
-    
+  private T item;
+
+  @Override
+  public void add(T item) {
+    this.item = item;
+  }
+
+  @Override
+  public T get() {
+    return item;
+  }
+
 }
